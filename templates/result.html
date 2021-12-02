@@ -1,0 +1,12 @@
+{%extends "home.html"%}
+{%block results%}
+<div class="results">
+    {% if   prediction[0] == 'positive' %}
+        <h1>Prediction: <span class='Positive'>Positive !</span></h1>
+    {% elif prediction[0] == 'negative' %}
+        <h1>Prediction: <span class='Negative'>Negative !</span></h1>
+    {% else %}
+        <h1>Prediction: <span class="Unkown">Could Not Understand !</span></h1>
+    {% endif %}
+</div>
+{%endblock%}
