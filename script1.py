@@ -26,7 +26,7 @@ def predict() :
         message = request.form['message']
         #check if we got some input
         if len(message) == 0 : return render_template('home.html', prediction= 'No message')
-        statement = np.asarray([message])
+        statement = np.asarray([message.lower()])
         vector = corpus_to_feature_matrix_fast(statement,len(vocab['token_to_idx']) )
         sentiment_prediction = M.predict(vector)
         return render_template('result.html' , prediction = sentiment_prediction)

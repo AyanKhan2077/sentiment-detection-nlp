@@ -6,7 +6,7 @@ body {
   }h1{
     text-align: center;
     font-size: 3.5rem;
-    color:lightsalmon;
+    color:teal;
     font-weight: 850;
     margin-bottom: 20px;
     /* padding-bottom: 0; */
@@ -19,7 +19,7 @@ body {
     color: #fff;
   }
   p{
-    color: rgb(119, 244, 253);
+    color: rgb(66, 175, 102);
     text-align: center;
     font-size: 1.5rem;
     margin-top: 0;
