@@ -36,6 +36,7 @@ body {
     opacity: 1;
     margin-bottom: 5px;
     padding:5px 0px 0px 30px ;
+    visibility : hidden;
   }
   
   header h1.logo {
